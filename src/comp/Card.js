@@ -2,6 +2,28 @@ import React from 'react';
 import {Flex, Text, Button} from '@chakra-ui/react';
 
 export const Card = ({id, name, price, onRemove, onAdd}) => {
+    let button = <Button
+        bg={'white'}
+        borderRadius={'4px'}
+        border={'1px solid white'}
+        fontSize={'12px'}
+        color={'#808080'}
+        onClick={onAdd}
+    >
+        Добавить в корзину
+    </Button>
+    if (onAdd == null){
+        button = <Button
+            bg={'white'}
+            borderRadius={'4px'}
+            border={'1px solid white'}
+            fontSize={'12px'}
+            color={'#808080'}
+            onClick={onRemove}
+        >
+            Удалить из корзины
+        </Button>
+    }
     return <Flex
         mt={'25px'}
         w={'320px'}
@@ -24,15 +46,7 @@ export const Card = ({id, name, price, onRemove, onAdd}) => {
             w={'100%'}
             justifyContent={'space-between'}
         >
-            <Button
-                bg={'white'}
-                borderRadius={'4px'}
-                border={'1px solid white'}
-                fontSize={'12px'}
-                color={'#808080'}
-            >
-                Добавить в корзину
-            </Button>
+            {button}
             <Text>{price}</Text>
         </Flex>
     </Flex>
