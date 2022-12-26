@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 
 export const Header = () => {
     return <Flex
+        bg={'white'}
         p={'0 50px'}
         as={'header'}
         w={'100%'}

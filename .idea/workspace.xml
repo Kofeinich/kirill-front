@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a51d2294-301d-4271-afea-26b4981fbfff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672061416898</updated>
-      <workItem from="1672061418067" duration="4731000" />
+      <workItem from="1672061418067" duration="5863000" />
     </task>
     <task id="LOCAL-00001" summary="feat: routes working">
       <created>1672063364735</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672065639388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: navs">
+      <created>1672066415491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672066415491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +113,7 @@
     <MESSAGE value="feat: cards added" />
     <MESSAGE value="fix: deps" />
     <MESSAGE value="fix: ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: ui" />
+    <MESSAGE value="feat: navs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: navs" />
   </component>
 </project>
