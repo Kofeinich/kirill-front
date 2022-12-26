@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51d2294-301d-4271-afea-26b4981fbfff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/comp/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comp/Cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comp/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MarketPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MarketPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672061416898</updated>
-      <workItem from="1672061418067" duration="2583000" />
+      <workItem from="1672061418067" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="feat: routes working">
       <created>1672063364735</created>
@@ -66,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672063364735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: routes working">
+      <created>1672064090893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672064090893</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

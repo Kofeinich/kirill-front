@@ -1,14 +1,33 @@
 import React from 'react';
-import {Flex} from "chakra-ui";
+import {Flex, Text, Button} from "chakra-ui";
 
-export const Card = () => {
-
-    const mock = [ { "id": 1, "name": "пончик", "price": 120 }, { "id": 2, "name": "вафли", "price": 140 }, { "id": 3, "name": "сок", "price": 100 }, { "id": 4, "name": "колбаса", "price": 300 }, { "id": 5, "name": "мыло", "price": 200 }, { "id": 6, "name": "вишня", "price": 30 } ]
-
+export const Card = ({id, name, price}) => {
     return <Flex
         w={'320px'}
         borderRadius={'8px'}
-
+        bg={'#8cede7'}
+        p={'40px'}
+        alignItems={'center'}
     >
+        <Flex
+            justifyContent={'space-between'}
+        >
+            <Text>{id}</Text>
+            <Text>{name}</Text>
+        </Flex>
+        <Flex
+            justifyContent={'space-between'}
+        >
+            <Button
+                bg={'white'}
+                borderRadius={'4px'}
+                border={'1px solid white'}
+                fontSize={'12px'}
+                color={'#808080'}
+            >
+                Добавить в корзину
+            </Button>
+            <Text>{price}</Text>
+        </Flex>
     </Flex>
 }
