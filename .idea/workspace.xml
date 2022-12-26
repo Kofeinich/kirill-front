@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a51d2294-301d-4271-afea-26b4981fbfff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UserPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MarketPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MarketPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/kofeinich/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/223.7571.168/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672061416898</updated>
-      <workItem from="1672061418067" duration="5863000" />
+      <workItem from="1672061418067" duration="6847000" />
     </task>
     <task id="LOCAL-00001" summary="feat: routes working">
       <created>1672063364735</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672066415491</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: useEffect">
+      <created>1672067425936</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672067425936</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +121,7 @@
     <MESSAGE value="fix: deps" />
     <MESSAGE value="fix: ui" />
     <MESSAGE value="feat: navs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: navs" />
+    <MESSAGE value="fix: useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: useEffect" />
   </component>
 </project>

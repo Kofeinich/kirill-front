@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {Layout} from "../layout/Layout";
 import {Cards} from "../comp/Cards";
 import {items} from "../api";
-import {Box} from "chakra-ui";
+import {Flex} from "chakra-ui";
 
 export const MarketPage = ({addToBasket}) => {
     const [itemsData, setItemsData] = useState(null)
@@ -20,10 +20,10 @@ export const MarketPage = ({addToBasket}) => {
     }
 
     return <Layout>
-        <Box>
-            <Cards itemsData={itemsData} addToBasket={addToBasket}/>
-            <b onClick={()=>setPage(page-1)}>Prev Page</b>
-            <b onClick={()=>setPage(page+1)}>Next Page</b>
-        </Box>
+        <Cards itemsData={itemsData} addToBasket={addToBasket}/>
+        <Flex p={'0 100px'} width={'100%'} justifyContent={'space-between'}>
+            <b onClick={() => setPage(page - 1)}>Prev Page</b>
+            <b onClick={() => setPage(page + 1)}>Next Page</b>
+        </Flex>
     </Layout>
 }
