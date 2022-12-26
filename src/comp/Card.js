@@ -3,19 +3,25 @@ import {Flex, Text, Button} from '@chakra-ui/react';
 
 export const Card = ({id, name, price}) => {
     return <Flex
+        mt={'25px'}
         w={'320px'}
         borderRadius={'8px'}
         bg={'#8cede7'}
         p={'40px'}
         alignItems={'center'}
+        flexDirection={'column'}
     >
         <Flex
+            w={'100%'}
+            mb={'10px'}
             justifyContent={'space-between'}
         >
             <Text>{id}</Text>
             <Text>{name}</Text>
         </Flex>
         <Flex
+            mb={'10px'}
+            w={'100%'}
             justifyContent={'space-between'}
         >
             <Button
