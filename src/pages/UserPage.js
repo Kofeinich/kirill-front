@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {Layout} from "../layout/Layout";
 import {me, orders} from "../api";
-import {Text, Flex} from "chakra-ui";
+import {Text, Flex, Heading} from "chakra-ui";
+import {Header} from "../layout/Header";
+import {Card} from "../comp/Card";
 
 export const UserPage = () => {
     const [meData, setMe] = useState(null)
@@ -20,13 +22,20 @@ export const UserPage = () => {
     const username = meData.name
 
     return <Layout>
-        <Flex w={'100%'}>
-            <Text>Username: {username}</Text>
+        <Flex  p={'0 100px'} width={'100%'} justifyContent={'space-between'}>
+        <Flex paddingTop={"100px"} w={'100%'} h={"500px"} flexDirection={"column"} justifyContent={'space-between'}>
+            <Heading  as={"h1"}>Профиль</Heading>
+            <Text>Имя: {username}</Text>
+            <Heading  as={"h1"}>Карты</Heading>
             {meData["cards"].map((card, i) =>
-                <div key={i}>Card {"activated" ? card.activated : " not activated"} {card.number}</div>
+                <div key={i}><Text>Карта {card.activated ? "активирована" : "не активирована"}, номер:  {card.number}</Text></div>
             )}
-            <Text>Orders</Text>
-            {ordersData.map((order, i) => <div key={i}>{JSON.stringify(order)}</div>)}
+            <Heading  as={"h1"}>Заказы</Heading>
+            {ordersData.map((order, i) => <div key={i}>
+                Id: {order.id}, Дата: {order.date}, Продукты: {order.ordered_products.map((r)=>r.name).join(', ')}
+                {/*{JSON.stringify(order)}*/}
+            </div>)}
+        </Flex>
         </Flex>
     </Layout>
 }
