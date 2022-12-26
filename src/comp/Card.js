@@ -1,7 +1,7 @@
 import React from 'react';
 import {Flex, Text, Button} from '@chakra-ui/react';
 
-export const Card = ({id, name, price}) => {
+export const Card = ({id, name, price, onRemove, onAdd}) => {
     return <Flex
         mt={'25px'}
         w={'320px'}
