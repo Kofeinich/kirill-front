@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Layout} from "../layout/Layout";
 import {Card} from "../comp/Card";
 import {Flex} from "chakra-ui";

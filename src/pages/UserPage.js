@@ -6,12 +6,10 @@ import {Text, Flex} from "chakra-ui";
 export const UserPage = () => {
     const [meData, setMe] = useState(null)
     const [ordersData, setOrdersData] = useState(null)
-    const fetchData = async () => {
-        setMe(await me())
-        setOrdersData(await orders())
-    }
+
     useEffect(() => {
-       fetchData()
+        me().then(setMe)
+        orders().then(setOrdersData)
     }, [])
 
     if (meData == null)
