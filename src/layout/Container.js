@@ -1,5 +1,5 @@
 import React from 'react';
-import {Flex} from "chakra-ui";
+import {Flex} from '@chakra-ui/react';
 
 export const Container = ({children}) => {
     return <Flex

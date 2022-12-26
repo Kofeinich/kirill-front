@@ -1,5 +1,5 @@
 import React from 'react';
-import {Flex, Text, Button} from "chakra-ui";
+import {Flex, Text, Button} from '@chakra-ui/react';
 
 export const Card = ({id, name, price}) => {
     return <Flex

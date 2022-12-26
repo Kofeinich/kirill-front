@@ -1,4 +1,4 @@
-import {Flex} from "chakra-ui";
+import {Flex} from '@chakra-ui/react';
 
 
 export const Header = () => {

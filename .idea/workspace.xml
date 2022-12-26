@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a51d2294-301d-4271-afea-26b4981fbfff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/comp/Cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comp/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comp/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/MarketPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MarketPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672061416898</updated>
-      <workItem from="1672061418067" duration="3465000" />
+      <workItem from="1672061418067" duration="3768000" />
     </task>
     <task id="LOCAL-00001" summary="feat: routes working">
       <created>1672063364735</created>
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672064090893</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: cards added">
+      <created>1672064972677</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672064972677</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: routes working" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: routes working" />
+    <MESSAGE value="feat: cards added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cards added" />
   </component>
 </project>
