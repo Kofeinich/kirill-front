@@ -1,29 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Flex, Text, Button} from '@chakra-ui/react';
 
 export const Card = ({id, name, price, onRemove, onAdd}) => {
+
+    const [isAdded, setIsAdded] = useState(false)
+
     let button = <Button
         bg={'white'}
         borderRadius={'4px'}
         border={'1px solid white'}
         fontSize={'12px'}
         color={'#808080'}
-        onClick={onAdd}
+        onClick={() => {
+
+            if (!isAdded) {
+                onAdd()
+                setIsAdded(!isAdded)
+            } else {
+                onRemove()
+                setIsAdded(!isAdded)
+            }
+        }}
     >
-        Добавить в корзину
+        {!isAdded ? 'Добавить в корзину' : 'Удалить из корзины' }
     </Button>
-    if (onAdd == null){
-        button = <Button
-            bg={'white'}
-            borderRadius={'4px'}
-            border={'1px solid white'}
-            fontSize={'12px'}
-            color={'#808080'}
-            onClick={onRemove}
-        >
-            Удалить из корзины
-        </Button>
-    }
+
     return <Flex
         mt={'25px'}
         w={'320px'}
