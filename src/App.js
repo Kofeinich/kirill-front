@@ -30,7 +30,7 @@ export const App = () => {
     const router = createBrowserRouter([
         {
             path: "/",
-            element: <MarketPage addToBasket={addToBasket}/>,
+            element: <MarketPage basket={basket} addToBasket={addToBasket}  removeFromBasket={removeFromBasket}/>,
         },
         {
             path: "/user",

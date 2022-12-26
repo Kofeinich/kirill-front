@@ -14,6 +14,8 @@ export const UserPage = () => {
 
     if (meData == null)
         return <></>
+    if (ordersData == null)
+        return <></>
 
     const username = meData.name
 

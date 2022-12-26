@@ -4,7 +4,7 @@ import {Cards} from "../comp/Cards";
 import {items} from "../api";
 import {Flex} from "chakra-ui";
 
-export const MarketPage = ({addToBasket}) => {
+export const MarketPage = ({addToBasket, basket,removeFromBasket}) => {
     const [itemsData, setItemsData] = useState(null)
     const [page, setPage] = useState(1)
     if (page > 2)
@@ -20,7 +20,7 @@ export const MarketPage = ({addToBasket}) => {
     }
 
     return <Layout>
-        <Cards itemsData={itemsData} addToBasket={addToBasket}/>
+        <Cards itemsData={itemsData} addToBasket={addToBasket} removeFromBasket={removeFromBasket} basket={basket}/>
         <Flex p={'0 100px'} width={'100%'} justifyContent={'space-between'}>
             <b onClick={() => setPage(page - 1)}>Prev Page</b>
             <b onClick={() => setPage(page + 1)}>Next Page</b>
